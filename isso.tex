@@ -1,0 +1,99 @@
+
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+
+
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+
+\ifxetexorluatex
+  
+  \setmainfont{Carlito}
+\else
+
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{37474F}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Suvankar Halder}
+\tagline{Good larger , hard worker and very simple Man also}
+\photo{2.5cm}{American-passport-photo}
+\personalinfo{%
+
+    \email{suvankar199852@gmail.com}
+  
+    \location{Vill-Ramdhari, Dol Tala Ghola , Baruipur}
+    
+
+}
+
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+
+\AtBeginEnvironment{itemize}{\small}
+
+
+\cvsection[page1sidebar]{Work Experience}
+NA
+
+% \cvevent{ Internship }{Times Of India \hfill }{1 Months}{NA}
+% \cvevent{ Internship }{Graphic Enterprise  \hfill }{1 Months}{NA}
+% \cvevent{ Training }{BOPT , East Zone   \hfill }{1 Months}{NA}
+% \begin{itemize}
+%     \item Developing The Loot app, a curated content learning app focussed for kids. Using BLoC pattern in flutter framework using firebase as BaaS.
+% \end{itemize}
+% \cvevent{ SDE Intern}{Actinide Ltd  \hfill }{July 2020 - Oct 2020}{Work from Home}
+% \begin{itemize}
+%     \item  Worked on a Quiz web app made with react and firebase.
+    
+% \end{itemize}
+% \cvtag{C-Sharp} 
+% \cvtag{.net}
+% \cvtag{Python}
+% \cvtag{NodeJs}
+% \cvtag{AWS}
+% \cvtag{Phonegap}
+
+\vspace{10px}
+
+
+\cvsection{Education}
+
+\cvevent{Printing Engineering}{Jadavpur University}{Aug  2018 -- Ongoing}{Kolkata, India}
+\cvevent{Diploma}{ R.I.P.T KOLKATA}{NA}{Kolkata, India}
+
+\cvevent{madhyamik}{ Ghola Uccha Vidyalaya }{NA}{NA, India}
+
+
+
+
+
+\vspace{10px}
+\cvsection{Interest}
+
+\begin{itemize}
+  
+\item NA.
+\end{itemize}
+
+\vspace{10px}
+
+\clearpage
+
+\end{document}
